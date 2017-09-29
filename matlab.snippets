@@ -30,3 +30,14 @@ snip.rv = snip.basename or "class_name"`}
 	end
 end
 endsnippet
+
+snippet test "Unit test" b
+classdef ${1} < matlab.unittest.TestCase
+
+	methods (Test)
+		function ${0}(testCase)
+		end
+	end
+
+end
+endsnippet
